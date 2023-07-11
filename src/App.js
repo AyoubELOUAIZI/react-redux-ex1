@@ -1,4 +1,5 @@
 import './App.css';
+import { ChangColor } from './components/ChangColor';
 import { Login } from './components/Login';
 import { Profile } from './components/Profile';
 
@@ -8,6 +9,7 @@ function App() {
    
       <Profile />
       <Login />
+      <ChangColor />
     </div>
   );
 }
